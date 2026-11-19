@@ -7,6 +7,7 @@
 [![CI](https://github.com/siedysoes/csix-itil/actions/workflows/ci.yml/badge.svg)](https://github.com/siedysoes/csix-itil/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Pages](https://img.shields.io/badge/GitHub%20Pages-live-22d3ee)](https://siedysoes.github.io/csix-itil/)
+[![ITIL version](https://img.shields.io/badge/ITIL-5-22d3ee)](https://www.peoplecert.org/browse-certifications/it-governance-and-service-management/ITIL-1)
 
 `csix-itil` is a structured, beginner-friendly knowledge base for learning
 ITIL and IT service management (ITSM) — short, practical, cross-linked

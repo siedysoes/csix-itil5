@@ -1,4 +1,4 @@
-/* CSIX ITIL — SPA: renders Markdown topics with language toggle (EN/ID). */
+/* CSIX ITIL 5 — SPA: renders Markdown topics with language toggle (EN/ID). */
 "use strict";
 
 const LS_LANG = "csix-itil-lang";
@@ -116,7 +116,7 @@ async function showArticle(path) {
       p.textContent = "Failed to load article (" + e.message + ").";
     }
     mdEl.appendChild(p);
-    document.title = "Not found — CSIX ITIL";
+    document.title = "Not found — CSIX ITIL 5";
     return;
   }
 
@@ -125,7 +125,7 @@ async function showArticle(path) {
   addAnchorIds(mdEl);
 
   const h1 = mdEl.querySelector("h1");
-  document.title = (h1 ? h1.textContent : "Article") + " — CSIX ITIL";
+  document.title = (h1 ? h1.textContent : "Article") + " — CSIX ITIL 5";
   window.scrollTo({ top: 0 });
 
   localStorage.setItem(LS_LANG, LANG === "id_lang" ? "id" : "en");
